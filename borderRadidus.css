@@ -1,0 +1,33 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 10px solid orange;
+  background-color: royalblue;
+  margin: 10px;
+  display: inline-block;
+}
+
+.box1 {
+  border-radius: 20px;
+}
+.box2 {
+  border-radius: 40px;
+}
+.box3 {
+  border-radius: 50%;
+}
+.box4 {
+  border-radius: 20px 0 20px 0;
+}
+.box5 {
+  border-radius: 100% 0 0 0;
+}
+.box6 {
+  border-radius: 50% 50% 50% 0;
+}
+.box7 {
+  border-radius: 80% 10% 80% 10%
+}
+.box8 {
+  border-radius: 50% 50% 0 0;
+}
