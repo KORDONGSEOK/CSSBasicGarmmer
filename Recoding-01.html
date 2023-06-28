@@ -6,7 +6,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- 태그 선택자 / 클래스 선택자 / 아이디 선택자 -->
+<!-- 
+  태그 선택자 / 클래스 선택자 / 아이디 선택자
   <h1>Heading</h1>
   <p>Paragraph</p>
   <ul>
@@ -17,5 +18,26 @@
   <p class="blue-text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tempora corporis harum veniam beatae ducimus ut quam eos libero officiis dolore temporibus incidunt deleniti id voluptates corrupti dolor saepe nobis?
   </p>
+    -->
+
+  <!-- 결합 선택자(Combined Selector) 
+  스페이스( ) : 자손선택자(하위선택자) 
+  > : 자식선택자
+  콤마(,) : 연결선택자(그룹선택자) -->  
+  <h1>Heading</h1>    
+  <div class="start">
+    <span>Inline Text 1</span>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <div>
+      <p>
+        <span>Paragraph 3</span>
+      </p>
+      <span>Inline Text 3</span>
+    </div>
+  </div>
+  <p class="end">Paragraph 4</p>
+
+
 </body>
 </html>

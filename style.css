@@ -1,21 +1,22 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-h1 {
-  color: red;
-}
-.blue-text {
+
+/* .start span {
   color: blue;
-}
-ul li {
-  color: pink;
-}
-/* p {
-  color : blue;
 } */
-#green-text {
-  color : green;
-}
-.large-text {
+
+/* .start > span {
+  color : red;
+} */
+
+.start div p,
+.end {
+  color: red;
   font-size: 2em;
 }
+
+.end {
+  text-transform: uppercase;
+}
+
