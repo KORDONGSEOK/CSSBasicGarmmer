@@ -1,5 +1,3 @@
-
-
 * {
   font-family: 'Noto Sans KR', sans-serif;
   box-sizing: border-box;
@@ -8,16 +6,17 @@
 
 body {}
 
-.frame {
-  width: 300px;
-  margin-top: 50px;
-  overflow: hidden;
+/* 태크.클래스네임 {...}*/
+.container{
+  width: 1200px;
 }
-
-.frame div {
-  border: 1px solid red;
-  float: left;
+header{
   height: 100px;
-  width: 100px;
-  
+}
+/* Section : About */
+/* .about {
+  border: 5px solid blue;
+} */
+section.about {
+  border: 5px solid blue;
 }
