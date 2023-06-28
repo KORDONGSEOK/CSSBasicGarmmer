@@ -3,7 +3,8 @@
   box-sizing: border-box;
   outline: none;
 }
-
+/* display 속성(inline, inline-block, block 4가지 특징) */
+/* 
 body {}
 
 span {
@@ -16,7 +17,7 @@ div {
   border: 1px solid #000;
   width: 300px;
   height: 100px;
-  /* margin: 30px; */
+  margin: 30px;
 }
 div:nth-child(1){
   margin-bottom: 60px;
@@ -30,5 +31,65 @@ button {
   width: 300px;
   height: 100px;
   margin: 30px;
+} */
 
+/*수직중앙 수평중앙 시키는 3가지 방법(position, flex, grid)*/
+/*1)position방식*/
+/* .parent {
+  border: 5px solid #000;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.child {
+  background-color: orangered;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/*2)flex방식*/
+/* .parent {
+  border: 5px solid #000;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  background-color: orangered;
+  width: 100px;
+  height: 100px;
+} */
+
+/*3)grid방식 01*/
+/* .parent {
+  border: 5px solid #000;
+  width: 400px;
+  height: 300px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+} */
+/*3)grid방식 02*/
+.parent {
+  border: 5px solid #000;
+  width: 400px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+}
+.child {
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
